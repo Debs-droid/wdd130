@@ -9,18 +9,42 @@ nav a {
     padding: 20px;
 }
 
+main {
+    max-width: 840;
+}
+
 h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30 px gray;
 }
 
 p {
-    padding: 10 px
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rbg(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: lightblue;
+    color: rgb(1, 1, 24);
+    text-align: center;
+}
+img {
+    width: 200px;
+    height:auto;
+}
+
+footer {
+    margin-top: 1rem;
+    border-top: 1px solid black;
+    text-align: center
 }
