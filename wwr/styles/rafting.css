@@ -26,21 +26,27 @@ header, main, footer {
 header {
     background-color: var(--secondary-color);
     display: grid;
-    grid-template-columns: 120px 1fr;
-    align-items: center;
+    grid-template-columns: 200px 1fr;
+    align-items: flex-end;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content:space-between;
     align-items: center;
-    list-style: none;
+
 }
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+     
 }
 
 nav, p, section, article {
@@ -98,6 +104,19 @@ nav, p, section, article {
     border-radius: 10px;
     font-size: 2rem;
     text-align: center;
+}
+
+.history {
+    display: flex;
+    flex-direction: row;
+}    
+
+.history img {
+    width: 200px;
+    height: auto;
+    position: relative;
+    margin: 2px;
+    
 }
 
 
