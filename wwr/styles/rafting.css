@@ -25,6 +25,17 @@ header, main, footer {
 
 header {
     background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
 }
 
 h1, h2 {
