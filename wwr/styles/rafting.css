@@ -50,21 +50,38 @@ h2 {
 }
 
 nav, p, section, article {
-    margin: 1rem;
+    margin: 1rem 0 1rem 0;
     padding: .5rem;
 }
 
+footer {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+
+}   
+
 /* Class Selectors */
 
-.socialmedia a {
-    text-decoration: none;
+.adventure {
+    display: flex;
+}    
+   
+
+.adventure figure {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 1rem;
+    align-items: center;
 }
 
-
-.socialmedia img {
-    width: 4rem;
-    height: 4rem;
+.adventure figure img {
+    width: 170px;
+    height: auto;
 }
+
 
 .hero {
     position: relative;
@@ -115,11 +132,25 @@ nav, p, section, article {
     width: 200px;
     height: auto;
     position: relative;
-    margin: 2px;
+    margin: 2px; 
+}
+
+.endnotes {
+    display: flex;
+    justify-content: center;
     
 }
 
+.socialmedia a {
+    text-decoration: none;
+}
 
+.socialmedia img {
+    display: flex;
+    justify-items: flex-end;
+    width: 4rem;
+    height: 4rem;
+}
 
 
 
