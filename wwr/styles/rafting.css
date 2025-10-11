@@ -1,8 +1,9 @@
 :root {
-    --primary-color: rgb(30, 118, 176);
-    --secondary-color: #e6ca3d;
+    --primary-color: rgb(108, 169, 210);
+    --secondary-color: #e9d571;
     --accent1-color: #5c1414;
     --accent2-color: #e7a20e; 
+    --accent3-color: rgb(15, 74, 113);
     --body-color: #1a1818;
     --heading-color: #333333;
 }
@@ -15,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent1-color)
 }
 
 header, main, footer {
@@ -40,7 +41,7 @@ nav {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
 
 h2 {
@@ -55,7 +56,7 @@ nav, p, section, article {
 }
 
 footer {
-    background-color: black;
+    background-color: var(--primary-color);
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
@@ -75,6 +76,7 @@ footer {
     margin: 0;
     padding: 1rem;
     align-items: center;
+    background-color:#e6ca3d
 }
 
 .adventure figure img {
