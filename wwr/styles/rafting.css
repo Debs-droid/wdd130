@@ -154,5 +154,8 @@ footer {
     height: 4rem;
 }
 
-
+.address {
+    display: flex;
+    align-items: center;
+}
 
