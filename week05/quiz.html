@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Quiz Form</title>
+  <meta name="description"
+    content="quiz.html is a quiz form with labels and 4 basic HTML and CSS questions with a submit quiz button and css styling at quiz.css">
+  <meta name="author" content="Debra Stowell">
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+  <main class="box">
+    <h1>✅ Basic HTML and CSS Quiz</h1>
+    <form class="box">
+      <div class="quiz-item box">
+        <label for="q1">1. Please fill in the blank: HTML stands for Hypertext Markup</label>
+        <input type="text" id="q1" name="q1">
+      </div>
+      <div class="quiz-item box">
+        <label for="q2">2. In HTML, what is the difference between block and inline elements? Give an example of
+          each.</label>
+        <textarea id="q2" name="q2" rows="3"></textarea>
+      </div>
+      <div class="quiz-item box">
+        <label for="q3">3. Please select the correct answer. CSS stands for: </label>
+        <select id="q3" name="q3">
+          <option value="choose one" selected disabled>Choose One ...</option>
+          <option value="a">A. Chrome Source Sheet</option>
+          <option value="b">B. Content Style Sigma</option>
+          <option value="c">C. Cascading Style Sheets</option>
+          <option value="d">D. Cacophony Safari Sound</option>
+          <option value="e">E. None of These</option>
+        </select>
+      </div>
+      <div class="quiz-item box">
+        <label for="q4">4. How many levels of section headers are there in HTML?</label>
+        <input type="number" id="q4" name="q4">
+      </div>
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </main>
+</body>
+
+</html>
