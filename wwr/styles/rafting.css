@@ -84,6 +84,10 @@ footer {
     height: auto;
 }
 
+.address {
+    display: flex;
+    align-items: center;
+}
 
 .hero {
     position: relative;
@@ -154,8 +158,5 @@ footer {
     height: 4rem;
 }
 
-.address {
-    display: flex;
-    align-items: center;
-}
+
 
