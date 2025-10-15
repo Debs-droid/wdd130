@@ -24,12 +24,23 @@ header, main, footer {
     margin: 0 auto;
 }
 
+nav a {
+    padding: 1em;
+    text-decoration: none;
+    color: #5c1414;
+    font-size: 1.25rem;
+}
+ 
+nav a:hover {
+    background-color: #fff;
+}
+
+
 header {
     background-color: var(--secondary-color);
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: flex-end;
-}
+}    
 
 nav {
     display: flex;
