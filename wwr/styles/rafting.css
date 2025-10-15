@@ -47,7 +47,7 @@ h1, h2 {
 
 
 nav, p, section, article {
-    margin: 1rem 0 1rem 0;
+    /*margin: 1rem 0 1rem 0;*/
     padding: .5rem;
 }
 
@@ -89,11 +89,32 @@ footer {
     margin: 0;
 }
 
-.form {
+
+.div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}   
+
+.form, .map{
+    display: inline;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
+    
 }
+ .purpose {
+    display: grid;
+    grid-template-columns: 1rem 4rem ;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 1rem;
+    grid-gap: 1rem;
+ }
+
+ .form button {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: medium;
+ }
 
 .hero {
     position: relative;
@@ -135,12 +156,12 @@ footer {
     text-align: center;
 }
 
-.history, .map, .form {
+.history{
     display: flex;
     flex-direction: row;
-}    
+}
 
-.history img, .map{
+.history img{
     width: 200px;
     height: auto;
     margin: 2px; 
