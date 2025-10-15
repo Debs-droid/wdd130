@@ -45,9 +45,7 @@ h1, h2 {
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-     
+    text-align: center;
 }
 
 nav, p, section, article {
@@ -67,6 +65,7 @@ footer {
 
 .adventure {
     display: flex;
+    
 }    
    
 
@@ -76,7 +75,9 @@ footer {
     margin: 0;
     padding: 1rem;
     align-items: center;
-    background-color:#e6ca3d
+    background-color:#e6ca3d;
+    width: stretch;
+    
 }
 
 .adventure figure img {
@@ -85,8 +86,16 @@ footer {
 }
 
 .address {
-    display: flex;
-    align-items: center;
+    text-align: center;
+    font-size: large;
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
 }
 
 .hero {
@@ -129,18 +138,20 @@ footer {
     text-align: center;
 }
 
-.history {
+.history, .map, .form {
     display: flex;
     flex-direction: row;
 }    
 
-.history img {
+.history img, .map{
     width: 200px;
     height: auto;
     position: relative;
     margin: 2px; 
 }
 
+
+/*footer classes*/
 .endnotes {
     display: flex;
     justify-content: center;
