@@ -101,7 +101,7 @@ footer {
 }
 
 
-.div {
+.contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }   
@@ -113,20 +113,24 @@ footer {
     padding: 1rem;
     
 }
- .purpose {
+.purpose {
     display: grid;
-    grid-template-columns: 1rem 4rem ;
+    grid-template-columns: 1rem 15rem ;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 1rem;
     grid-gap: 1rem;
- }
+}
 
- .form button {
+
+.form button {
     padding: 1rem;
     margin: 1rem;
     font-size: medium;
- }
+}
 
+.message {
+    margin: 1rem 0 1rem 0;
+}
 .hero {
     position: relative;
 }
@@ -167,11 +171,14 @@ footer {
     text-align: center;
 }
 
-.history{
+.history {
     display: flex;
     flex-direction: row;
 }
 
+.history p {
+    width: 40%;
+}
 .history img{
     width: 200px;
     height: auto;
