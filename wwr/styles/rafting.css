@@ -74,7 +74,6 @@ footer {
 
 .adventure {
     display: flex; 
-
 }    
 
 .adventure figure {
@@ -84,6 +83,7 @@ footer {
     padding: 1rem;
     align-items: center;
     background-color:#e6ca3d;
+    font-size: large;
 }
 
 .adventure figure img {
@@ -155,7 +155,8 @@ footer {
     background-color: var(--primary-color);
     border: 2px solid var(--secondary-color);
     margin-bottom: 0;
-    font-size: large;
+    font-size: x-large;
+    text-align: center;
 }
 
 .hero h1 {
@@ -174,18 +175,96 @@ footer {
 .history {
     display: flex;
     flex-direction: row;
+    object-fit: contain;  
 }
 
 .history p {
-    width: 40%;
-    font-size: large;
+    width: 50%;
+    font-size: x-large;   
 }
+
 .history img{
-    width: 200px;
+    width: 100%;
     height: auto;
     margin: 2px; 
 }
 
+.trips, .list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    object-fit: contain;
+}
+
+.trips form {
+    margin:  3rem;
+}
+
+.trips img{
+    margin-bottom: 5rem;
+}
+
+.down {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.offer {
+    border:
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+thead,
+tfoot {
+    background-color: rgb(228 240 245);
+}
+
+thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+    
+/*.list {
+    display: flex;
+    flex-direction: column;
+}*/
 
 /*footer classes*/
 .endnotes {
