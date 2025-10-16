@@ -207,11 +207,14 @@ footer {
     display: grid;
     grid-template-columns: 40% 40%;
     margin: 1rem;
-    padding: 1rem;
+    column-gap: 8rem;
+    
+    
 }
 
 .offer {
-    border:
+    align-items: end;
+     
 }
 
 table {
@@ -235,7 +238,7 @@ tfoot {
 }
 
 thead th {
-    background-color: #000;
+    background-color: var(--accent3-color);
     color: #fff;
 }
 
@@ -260,7 +263,10 @@ tfoot th {
 tfoot td {
     font-weight: bold;
 }
-    
+
+.book {
+    justify-content: center;
+}
 /*.list {
     display: flex;
     flex-direction: column;
